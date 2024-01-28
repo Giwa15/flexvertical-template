@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERTICAL FLEX TEMPLATE</title>
+</head>
+<style>
+    .flexcontainer{
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+   }
+
+   .all{
+    flex: 1;
+    margin: 20px;
+    border: 10px solid aqua;
+   }
+
+   .weekday{
+    flex:5;
+    background-color: brown;
+   }
+
+   .weekend{
+    flex: 2;
+    background-color: blue;
+   }
+
+
+</style>
+<body>
+    <div class="flexcontainer">
+        <div class="weekday all"></div>
+        <div class="weekend all"></div>
+
+    </div>
+    
+</body>
+</html>
